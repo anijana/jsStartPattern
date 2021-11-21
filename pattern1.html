@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Pattern1</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #00d2d3;
+            margin-top: 180px;
+    
+        }
+        div{
+            font-size: 60px;
+            color: #ff6b6b;
+        }
+    </style>
+  </head>
+  <body>
+    <div>
+      <script>
+        function starpattern() {
+          var columns = 7;
+          var rows = 5;
+          for (var i = 1; i <= rows; i++) {
+            for (var j = 1; j <= columns; j++) {
+              document.write("*");
+            }
+            document.write("<br>");
+          }
+        }
+        starpattern();
+      </script>
+    </div>
+  </body>
+</html>
